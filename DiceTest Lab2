@@ -1,0 +1,14 @@
+
+public class DiceTest {
+
+	public static void main(String[] args) {
+
+		
+		Dice DiceNum = new Dice();
+		System.out.println(DiceNum.Throw(1));
+		System.out.println(DiceNum.Throw(2));
+		System.out.println(DiceNum.Throw(3));
+		
+	}
+
+}
