@@ -1,0 +1,31 @@
+
+public class Dice 
+{
+
+	private int diceValue;
+	private int Bounces;
+
+	
+	public Dice (int bounces)
+	{
+		Bounces = bounces;
+	}
+	
+	public int Throw()
+	{
+		diceValue =0;
+		int nrage = 0;
+		for (int i = 0; i < Bounces; i++ )
+		{
+			diceValue = 1 + (int)( Math.random()* 6);
+			System.out.println("The Dice Value of this throw is: " + diceValue);
+			nrage += diceValue;
+		}
+		
+		int avarage = 0;
+		avarage = nrage/Bounces;
+		System.out.println("The Avarage is: " + avarage);
+		
+		return avarage;
+	}
+}
