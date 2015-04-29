@@ -24,7 +24,7 @@ public class Dice
 		
 		int avarage = 0;
 		avarage = nrage/Bounces;
-		System.out.println("The Avarage is: " + avarage);
+		System.out.println("The Avarage of " + Bounces + " is: " + avarage);
 		
 		return avarage;
 	}
