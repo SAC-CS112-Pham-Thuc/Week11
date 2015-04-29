@@ -1,0 +1,16 @@
+
+public class DiceTest {
+
+	public static void main(String[] args) {
+		
+		int DiceValue;
+		
+		Dice DiceNum = new Dice();
+		DiceNum.Throw();
+		DiceValue = DiceNum.Value();
+		System.out.println(DiceValue);
+		System.out.println(DiceNum.Throw());
+		
+	}
+
+}
