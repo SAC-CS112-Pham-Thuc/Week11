@@ -1,0 +1,20 @@
+
+public class DiceTest {
+
+	public static void main(String[] args) {
+
+		Dice dice = new Dice(1);
+		dice.Throw();
+		Dice dice2 = new Dice(2);
+		dice2.Throw();
+		Dice dice3 = new Dice(3);
+		dice3.Throw();
+		Dice dice4 = new Dice(4);
+		dice4.Throw();
+		Dice dice5 = new Dice(5);
+		dice5.Throw();
+		Dice dice6 = new Dice(6);
+		dice6.Throw();
+	}
+
+}
