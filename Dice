@@ -1,0 +1,16 @@
+
+public class Dice 
+{
+	private int diceValue;
+	
+	public int Throw()
+	{
+		diceValue = (1 + (int)( Math.random()* 6));;
+		return diceValue;
+	}
+	
+	public int Value()
+	{
+		return diceValue;
+	}
+}
